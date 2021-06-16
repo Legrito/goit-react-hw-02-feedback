@@ -1,22 +1,14 @@
-import { Notification } from '../NotificationMessage';
+import styles from './Statistics.module.scss'
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     return (
-        <div>
-          <h3>Statistics</h3>
+        <div className={styles.statistis__wrapper}>
             <div>
               <p>Good: {good}</p>
               <p>Neutral: {neutral}</p>
               <p>Bad: {bad}</p>
-              {total > 0 ? (
-                <div>
-                <p>Total: {total}</p>
-                <p>Positive feedback: {positivePercentage}% </p>
-                </div>
-              ) 
-            : (
-                <Notification message="No feedback given" />
-            )}
+              <p>Total: {total}</p>
+              <p>Positive feedback: {positivePercentage}% </p>
             </div> 
           </div>
     )};

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.options__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.options__wrapper button {
+  padding: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: 'Noto Sans JP', sans-serif;
+  border: none;
+  background-color: white;
+  text-transform: uppercase;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 0.15s ease;
+  transition: -webkit-transform 0.15s ease;
+  transition: transform 0.15s ease;
+  transition: transform 0.15s ease, -webkit-transform 0.15s ease;
+}
+
+.options__wrapper button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.options__wrapper button:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.options__wrapper button[name="good"] {
+  background-color: blueviolet;
+}
+
+.options__wrapper button[name="good"]::after {
+  content: '😃';
+}
+
+.options__wrapper button[name="neutral"] {
+  background-color: #83e22b;
+}
+
+.options__wrapper button[name="neutral"]::after {
+  content: '😐';
+}
+
+.options__wrapper button[name="bad"] {
+  background-color: #e22b2b;
+}
+
+.options__wrapper button[name="bad"]::after {
+  content: '🙁';
+}
+/*# sourceMappingURL=FeedbackOptions.module.css.map */

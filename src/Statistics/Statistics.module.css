@@ -1,0 +1,13 @@
+.statistis__wrapper {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 22px;
+}
+
+.statistis__wrapper p {
+  padding: 6px;
+}
+
+.statistis__wrapper p:nth-child(2n - 1) {
+  background-color: #d7ffde;
+}
+/*# sourceMappingURL=Statistics.module.css.map */

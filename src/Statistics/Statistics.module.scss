@@ -1,0 +1,11 @@
+.statistis__wrapper {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+
+    p {
+        padding: 6px;
+        &:nth-child(2n - 1) {
+            background-color: rgb(215, 255, 222);
+        }
+    }
+}

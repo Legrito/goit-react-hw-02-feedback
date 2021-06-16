@@ -35,11 +35,11 @@ addFeedback = (e) => {
     const feedbackType= Object.keys(this.state);
       return (
           <div className="feedback__wrapper">
-            <Section title="">
+            <Section title="Plese leave feedback">
               <FeedbackOptions options={feedbackType} onLeaveFeedback={this.addFeedback} />
             </Section>
             {total > 0 
-            ? <Section title="">
+            ? <Section title="Statistics">
               <Statistics good={this.state.good} neutral={this.state.neutral} bad={this.state.bad} total={total} positivePercentage={percentage} />
               </Section> 
             : <Notification message="No feedback given" />}                         

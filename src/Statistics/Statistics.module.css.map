@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,0BAA0B;EACvC,SAAS,EAAE,IAAI;CAQlB;;AAVD,AAII,mBAJe,CAIf,CAAC,CAAC;EACE,OAAO,EAAE,GAAG;CAIf;;AATL,AAMQ,mBANW,CAIf,CAAC,AAEI,UAAW,CAAA,MAAM,EAAE;EAChB,gBAAgB,EAAE,OAAkB;CACvC",
+    "sources": [
+        "Statistics.module.scss"
+    ],
+    "names": [],
+    "file": "Statistics.module.css"
+}
